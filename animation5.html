@@ -1,0 +1,48 @@
+
+<!DOCTYPE HTML>
+<html><head><title>Animation Properties-5</title>
+    <style> 
+        *{background-color: aqua}
+        p{
+        height: 200px;
+        width: 200px;
+        animation: sep 5s infinite;
+        }
+        
+    @keyframes sep{
+        
+    0% {background-color: yellow;
+    border: 20px dotted green;
+    border-radius: 20px;
+    transform: translate(0px,0px);
+        }
+            
+    25%{background-color: blue;
+    border: 20px dashed deeppink;
+        border-radius: 0px 200px;
+        transform: translate(300px,0px);
+        }  
+            
+    50%{background-color: darkorchid;
+    border: 100px groove blue;
+        transform: translate(300px,300px);
+        }
+    
+    75%{background-color: coral;
+    border: 20px groove;
+    border-radius: 0px 200px;
+        transform: translate(0px,300px);
+        }
+            
+    100%{background-color:lightcyan;
+    border: 80px groove greenyellow;
+        transform: translate(0px,0px);
+        } 
+        
+        }  
+    </style>
+    </head> 
+    <body>
+    <p></p>      
+    </body>
+</html>
